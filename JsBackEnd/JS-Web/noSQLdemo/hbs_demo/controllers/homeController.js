@@ -1,9 +1,7 @@
-const { model } = require('mongoose')
+const homeController = require('express').Router();
 
- const router = require('express').Router()
-
- router.get('/', (req, res) => {
+ homeController.get('/', (req, res) => {
     res.render('home')
 })
 
-module.exports = router
+module.exports = homeController
