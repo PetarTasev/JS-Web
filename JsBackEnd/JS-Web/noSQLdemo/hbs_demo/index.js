@@ -20,10 +20,10 @@ async function start() {
     app.use(homeControler)
     app.use('/articles', articleControler)
 
-    // await mongoose.connect(connString, {
-    //     useUnifiedTopology: true,
-    //     useNewUrlParser: true
-    // })
+     await mongoose.connect(connString, {
+         useUnifiedTopology: true,
+         useNewUrlParser: true
+    })
     console.log('Data base ready')
 
     app.listen(3000, () => console.log('Server listening on port 3000'))
