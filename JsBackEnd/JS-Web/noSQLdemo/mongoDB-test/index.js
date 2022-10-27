@@ -1,8 +1,7 @@
-const mongodb = request('mongodb')
+const mongoose = require('mongoose');
+const Person = require('./Person')
 
-const connectionString = 'mongodv://localhost:27017'
+mongoose.connect('mongodb://localhost:27017')
 
-const connection = new mongodb.MongoClient(connectionString, {
-    useUnifiedTopology: true,
-    
-})
+const person = new Person({name: 'Petar', age: 19})
+person.save().then(() => console.log('person saved'))
