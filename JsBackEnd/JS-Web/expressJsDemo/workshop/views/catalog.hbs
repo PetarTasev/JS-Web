@@ -1,2 +1,11 @@
-<h1>Catalog</h1>
-<p>Here are our best offers</p>
+<section>
+  <h1>Catalog</h1>
+  <p>Here are our best offers</p>
+  <main>
+    <ul>
+        {{#each rooms}}
+        {{>roomCard}}
+        {{/each}}
+    </ul>
+  </main>
+</section>

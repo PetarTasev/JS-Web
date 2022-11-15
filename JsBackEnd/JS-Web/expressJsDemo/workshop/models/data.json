@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1234",
+        "name": "Vila",
+        "city" : "Sofia",
+        "price": 150,
+        "beds" : 2,
+        "details": "The best view of down town sofia. Amazing night life. 5 minutes walk to the grocery store and 7 minutes from the most famous night hangouts"
+    },
+    {
+        "id": "4321",
+        "name": "Appartment",
+        "city" : "Varna",
+        "price": 120,
+        "beds" : 3,
+        "details": "The best view of down town sofia. Amazing night life. 5 minutes walk to the grocery store and 7 minutes from the most famous night hangouts"
+    }
+]
