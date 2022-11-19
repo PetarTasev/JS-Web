@@ -17,8 +17,8 @@ app.set('view engine', '.hbs')
 
 app.use(express.urlencoded({ extended: true}))
 app.use('/static', express.static('static'))
-app.use(defaultTitle('SoftUni Accomodation'))
 
+app.use(defaultTitle('SoftUni Accomodation'))
 app.use(homeController)
 app.use('/catalog',catalogController)
 app.use( createContorler)
