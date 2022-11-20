@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1234",
+    "name": "Room",
+    "description": "Nice and cozy",
+    "city": "Bansko",
+    "beds": 2,
+    "price": 130,
+    "imgUrl": "/static/assets/room1.jpg"
+  },
+  {
+    "id": "029ee4",
+    "name": "Hotel Room",
+    "description": "Spacious. Great view.",
+    "city": "Sofia",
+    "beds": 2,
+    "price": 150,
+    "imgUrl": "/static/assets/room2.jpg"
+  },
+  {
+    "id": "07e9c5",
+    "name": "asdasdasd",
+    "description": "sdasd",
+    "city": "fadf",
+    "beds": 1,
+    "price": 2,
+    "imgUrl": "dda"
+  },
+  {
+    "id": "0b09f8",
+    "name": "Penth house",
+    "description": "Its a great place the nicest view of Sofia you'll ever see it even has a gym and a sauna all included in the deal.",
+    "city": "Sofia",
+    "beds": 6,
+    "price": 350,
+    "imgUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Ftheugliest8&psig=AOvVaw1N0lHXHOa_2mU490zeCmZg&ust=1668971105201000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNCeloH4uvsCFQAAAAAdAAAAABAE"
+  }
+]
