@@ -9,7 +9,6 @@ facilityController.get('/create', (req, res) => {
 })
 
 facilityController.post('/create', async (req, res) => {
-    console.log('hello')
     try {
         const result = await createFacility(req.body);
         console.log(result)
