@@ -8,5 +8,4 @@ require('./config/routes')(app);
 
 
 
-
 app.listen(config.port, console.log(`Listening on port ${config.port}! Now its up to you...`));
