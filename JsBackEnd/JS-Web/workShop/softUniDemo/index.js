@@ -3,8 +3,15 @@ const env = process.env.NODE_ENV || 'development';
 const config = require('./config/config')[env];
 const app = require('express')();
 
+async function start (app) {
 require('./config/express')(app);
 require('./config/routes')(app);
+await require('./config/db')(app)
+}
+
+start(app)
+
+
 
 
 

@@ -9,4 +9,11 @@ createController.post('/', (req, res) => {
     console.log('we here')
 })
 
+createController.get('/accessory', (req,res) => {
+    res.render('createAccessory')
+})
+
+createController.post('/accessory', (req,res) => {
+    //TODO
+})
 module.exports = createController
