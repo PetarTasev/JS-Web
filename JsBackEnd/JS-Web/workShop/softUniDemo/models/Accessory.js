@@ -1,14 +1,12 @@
 const { Schema, model } = require("mongoose");
 
-
-const AccessoryScema = new Schema( {
+const accessorySchema = new Schema({
     name: {type: String, required: true},
-    discription: {type: String, required: true},
-    inameUrl: {type: String, required: true, },
-    dificultyLevle: {type: Number, required: true, min: 1, max: 6},
-    Accessories: {type: [ObjectId], default: [], ref: 'Cube'}
+    imageUrl: {type: String, required: true},
+    description: {type: String, required: true}
+    //Accessorys: {type: String, required: true, ref: 'Accessory' }
 })
 
-const Accessory = model('Accessory', AccessoryScema)
+const Accessory = model('Accessory', accessorySchema)
 
 module.exports = Accessory

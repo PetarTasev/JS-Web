@@ -3,10 +3,11 @@ const { Schema, model } = require("mongoose");
 const cubeSchema = new Schema({
     name: {type: String, required: true},
     imageUrl: {type: String, required: true},
-    Description: {type: String, required: true},
-    Cubes: {tyep: String, required: true, ref: 'Accessory' }
+    description: {type: String, required: true},
+    difficultyLevel: {type: String, required: true}
+    //Cubes: {type: [Stringf], required: true, ref: 'Accessory' }
 })
 
-const Cube = module('Cube', cubeSchema)
+const Cube = model('Cube', cubeSchema)
 
 module.exports = Cube
