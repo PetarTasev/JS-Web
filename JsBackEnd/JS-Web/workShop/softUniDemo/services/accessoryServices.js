@@ -1,7 +1,7 @@
 const Accessory = require("../models/Accessory");
 
 async function getAllAccessorys() {
-    return Accessory.find({})
+    return Accessory.find({}).lean()
 }
 
 async function createAccessory(name, description, imageUrl) {
